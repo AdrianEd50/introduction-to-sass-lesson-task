@@ -1,0 +1,31 @@
+::placeholder {
+  color: black;
+}
+
+.form-common {
+  border: none;
+  height: 25px;
+  padding: 0.5rem 0.4rem;
+  color: black;
+}
+/*@extend .form-common;*/
+
+.form-search {
+  margin-bottom: 2rem;
+
+  input {
+    @extend .form-common;
+    height: 31px;
+    width: 200px;
+    font-size: 14px;
+    padding: 0.3em;
+  }
+
+  button {
+    @extend .form-common;
+    background: #036754;
+    height: 40px;
+    width: 80px;
+    color: white;
+  }
+}
